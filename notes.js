@@ -11,8 +11,7 @@ var creatMap = () => {
 	var mapDefault = fs.readFileSync('data.json');
 	var mapDefaultObject = JSON.parse(mapDefault);
 	fs.writeFileSync('datatmp.json', JSON.stringify(mapDefaultObject));
-	//Neu muon cheat thi uncomment dong ben duoi!
-	//console.log(dataObject);
+	console.log(dataObject);
 }
 
 
@@ -83,7 +82,8 @@ var shot = (x, y) => {
 	var infoDataTmp = JSON.parse(infoData);
 	var mapDataTmp = fs.readFileSync('tmp.json');
 	var dataObj = JSON.parse(mapDataTmp);
-	console.log(dataObj);
+	// MUon cheat thi uncomment dong nay
+	// console.log(dataObj);
 
 	function enemiesAround(ngang, doc) {
 		var count = 0;
