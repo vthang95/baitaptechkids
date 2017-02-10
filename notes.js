@@ -8,10 +8,11 @@ var creatMap = () => {
 	} catch (err) {
 
 	}
-	var mapDefault = fs.readFileSync('datadefault.json');
+	var mapDefault = fs.readFileSync('data.json');
 	var mapDefaultObject = JSON.parse(mapDefault);
 	fs.writeFileSync('datatmp.json', JSON.stringify(mapDefaultObject));
-	console.log(dataObject);
+	//Neu muon cheat thi uncomment dong ben duoi!
+	//console.log(dataObject);
 }
 
 
