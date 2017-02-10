@@ -82,7 +82,7 @@ var shot = (x, y) => {
 	var infoDataTmp = JSON.parse(infoData);
 	var mapDataTmp = fs.readFileSync('tmp.json');
 	var dataObj = JSON.parse(mapDataTmp);
-	// console.log(dataObj);
+	console.log(dataObj);
 
 	function enemiesAround(ngang, doc) {
 		var count = 0;
@@ -134,6 +134,7 @@ var shot = (x, y) => {
 		// cap nhat lai map vao file datatmp.json
 		fs.writeFileSync('datatmp.json', JSON.stringify(infoDataTmp));
 		fs.writeFileSync('tmp.json', JSON.stringify(dataObj));
+		console.log('so may bay xung quanh la: '+enemiesAround(x, y));
 		// console.log(dataObj);
 		// console.log(infoDataTmp);
 	} else {
