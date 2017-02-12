@@ -13,9 +13,7 @@ node app play
 node app shot --x="toa do ngang" --y="toa do doc"
 
 Do em biet 1 chut ve node js va json nen em lam theo cach hoi trau bo de co the 
-tuong tac qua console. Em dang thu viet lai cho ro rang hon va bot lang nhang hon theo huong functonal programming!
-
-Neu co the anh gop y cho em a. https://github.com/vthang95/rocket-platform
+tuong tac qua console.
 
 Anh co the hoi em bat ki phan nao trong bai cua em a.
 
